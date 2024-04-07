@@ -1,4 +1,8 @@
 ## Welcome to the GitHub page of my i3 dotfiles.
+### Credit:
+[Milad Fakurian](https://unsplash.com/@fakurian) on Unsplash for [wallpaper](https://unsplash.com/photos/a-black-and-white-photo-with-a-black-background-ek7Y_iOl3UQ)
+
+[adi1090x](https://github.com/adi1090x/rofi) on GitHub for rofi menus
 ### Showcase:
 This includes dynamic tiling for i3, clipboard history, a very good applications menu, screenshotting tool with cool effects, and much much more.
 
