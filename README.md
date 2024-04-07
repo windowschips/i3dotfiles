@@ -1,6 +1,10 @@
 ## Welcome to the GitHub page of my i3 dotfiles.
 ### Showcase:
-will upload soon
+This includes dynamic tiling for i3, clipboard history, a very good applications menu, screenshotting tool with cool effects, and much much more.
+
+https://github.com/windowschips/i3dotfiles/assets/137562618/1859ef2a-8cf5-4ad2-9f2d-f94245699616
+
+..and this video is just a small part of the many features provided!
 ### Before you use:
 - Only tested on Fedora Workstation 39, using ASUS F555L Laptop. I have only one monitor. (internal display)
 - I am not responsible for any computer errors or damage, but feel free to make issue on the repository and I will try helping.
