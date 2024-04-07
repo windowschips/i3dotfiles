@@ -23,7 +23,7 @@ Most applications and programs which are required are listed in Requirements sec
 - rofi (powermenu and app launcher)
 - maim
 - xclip
-- xlock
+- xlock (xlockmore package)
 - xev
 - xwininfo
 - xdotool
