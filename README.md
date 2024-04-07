@@ -31,7 +31,6 @@ Most applications and programs which are required are listed in Requirements sec
 - networkmanager (nmtui is needed)
 - systemctl (rofi power menu)
 - shadower (fancy screenshot effects)
-- btop (polybar module)
 - gnome-calendar (for date module of polybar)
 - light (if you have a better alternative that doesn't require root permissions, make an issue and tell me about it)
 - bluetui (for bluetooth module of polybar)
