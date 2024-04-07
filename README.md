@@ -4,6 +4,8 @@ This includes dynamic tiling for i3, clipboard history, a very good applications
 
 https://github.com/windowschips/i3dotfiles/assets/137562618/1859ef2a-8cf5-4ad2-9f2d-f94245699616
 
+https://github.com/windowschips/i3dotfiles/assets/137562618/8fbccf9d-4571-4880-b81f-dd8ec5c5ccaa
+
 ..and this video is just a small part of the many features provided!
 ### Before you use:
 - Only tested on Fedora Workstation 39, using ASUS F555L Laptop. I have only one monitor. (internal display)
