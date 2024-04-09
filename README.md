@@ -2,7 +2,7 @@
 ### Credit:
 [Milad Fakurian](https://unsplash.com/@fakurian) on Unsplash for [wallpaper](https://unsplash.com/photos/a-black-and-white-photo-with-a-black-background-ek7Y_iOl3UQ)
 
-[adi1090x](https://github.com/adi1090x/rofi) on GitHub for rofi menus
+[adi1090x](https://github.com/adi1090x/rofi) on GitHub for rofi menus (I edited them)
 ### Showcase:
 This includes dynamic tiling for i3, clipboard history, a very good applications menu, screenshotting tool with cool effects, and much much more.
 
