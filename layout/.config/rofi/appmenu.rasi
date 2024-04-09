@@ -83,10 +83,10 @@ mainbox {
     enabled:                     true;
     spacing:                     2px;
     margin:                      20%;
-    padding:                     0px;
-    border:                      0px solid;
+    padding:                     2px;
+    border:                      2px solid;
     border-radius:               0px 0px 0px 0px;
-    border-color:                @border-colour;
+    border-color:                @alternate-background;
     background-color:            @background-colour;
     children:                    [ "inputbar", "message", "listview" ];
 }

@@ -52,7 +52,7 @@ window {
     anchor:                      east;
     fullscreen:                  false;
     width:                       100;
-    x-offset:                    0px;
+    x-offset:                    -2px;
     y-offset:                    0px;
 
     /* properties for all widgets */
@@ -72,9 +72,9 @@ mainbox {
     spacing:                     2px;
     margin:                      0px;
     padding:                     2px;
-    border:                      0px solid;
+    border:                      2px solid;
     border-radius:               0px;
-    border-color:                @selected;
+    border-color:                @alternate-background;
     background-color:            transparent;
     children:                    [ "listview" ];
 }
