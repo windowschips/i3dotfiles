@@ -16,6 +16,7 @@ https://github.com/windowschips/i3dotfiles/assets/137562618/8fbccf9d-4571-4880-b
 - I am not responsible for any computer errors or damage, but feel free to make issue on the repository and I will try helping.
 - Make sure to read all sections of this file so no confusion occurs.
 - These dotfiles are not meant to be used as is, and you may have to make some changes if you have a different setup from mine.
+- Upon installing, you may have to set the wallpaper from nitrogen manually.
 
 ### Programs:
 Most of the necessary programs are listed in the dropdown below. If you don't want to use a specific program, you can try editing the configs and substituting the program. If I missed any program, make issue on repository and I will add it to the section.
