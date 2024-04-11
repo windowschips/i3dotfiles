@@ -2,3 +2,9 @@ window {
     padding: 0;
     box-shadow: none;
 }
+* { border-radius: 0px; }
+
+decoration, decoration:backdrop
+{
+    box-shadow: none;
+}
