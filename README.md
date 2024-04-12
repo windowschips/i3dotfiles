@@ -54,7 +54,7 @@ Substitutable:
 - pavucontrol (for pulseaudio module of polybar)
 - [bluetui](https://github.com/pythops/bluetui) (for bluetooth module of polybar)
 - [tomato.c](https://github.com/gabrielzschmitz/Tomato.C) (for pomodoro module of polybar)
-- light (if you have a better alternative that doesn't require root permissions and can have a minimum brightness limit, please make an issue and tell me about it)
+- brightnessctl (for brightness module of polybar)
 
 For polybar autohide:
 - xev
