@@ -31,7 +31,7 @@ Necessary:
 - kitty
 - polybar
 - xfce-polkit (some apps break without this)
-- [twmn](https://github.com/sboli/twmn) (if you have a better alternative that can be customized to look like this, please make an issue and tell me about it)
+- dunst (notifications)
 - rofi (powermenu and app launcher)
 - xss-lock (laptop shenanigans)
 - systemd (systemctl needed) (also why the hate???)
