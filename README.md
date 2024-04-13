@@ -4,7 +4,7 @@
 
 [adi1090x](https://github.com/adi1090x/rofi) on GitHub for rofi menus (I edited them)
 ### Showcase:
-This includes dynamic tiling for i3, clipboard history, a very good applications menu, screenshotting tool with cool effects, and much much more.
+This includes dynamic tiling for i3, clipboard history, applications menu, compositor animations, screenshotting tool with cool effects, and much much more.
 
 > [!NOTE]
 > The videos are not up to date as of 9 April 2024.
@@ -40,7 +40,7 @@ Necessary:
 
 Eyecandy / QoL:
 - [autotiling](https://github.com/nwg-piotr/autotiling) (makes i3 behave like a dynamic tiling wm)
-- picom (just install the latest package your distro provides)
+- picom (!!! use jonaburg fork !!!)
 - [unclutter-xfixes](https://github.com/Airblader/unclutter-xfixes) (autohide mouse cursor)
 - [nitrogen](https://github.com/l3ib/nitrogen/) (wallpaper)
 - maim (screenshot)
