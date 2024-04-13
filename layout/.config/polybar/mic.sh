@@ -1,9 +1,9 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-var="$(pactl get-source-mute @DEFAULT_SOURCE@ | grep Mute)"
+ismute="$(pactl get-source-mute @DEFAULT_SOURCE@ | grep Mute)"
 
-if [[ $var =~ "Mute: yes" ]]; then
-echo "󰍭"
+if [[ $ismute =~ "Mute: yes" ]]; then
+    echo "󰍭"  # unmute
 else
-echo "󰍬"
+    echo "󰍬"  # mute
 fi

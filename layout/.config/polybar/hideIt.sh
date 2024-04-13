@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! #
+# SOURCE: https://github.com/tadly/hideIt.sh #
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! #
+
 #
 #   Automagically hide/show a window by its name when the cursor is
 #   within a defined region or you mouse over it.
