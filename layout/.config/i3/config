@@ -4,8 +4,8 @@ font pango:Ubuntu Nerd Font 11
 
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id ~/.config/polybar/start.sh
+exec_always --no-startup-id killall picom; picom & disown
 exec --no-startup-id unclutter
-exec --no-startup-id picom
 exec --no-startup-id xss-lock --transfer-sleep-lock -- ~/.dotfiles/apps.sh screenlock
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id dunst
