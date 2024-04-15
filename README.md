@@ -2,18 +2,17 @@
 ### Credit:
 [Milad Fakurian](https://unsplash.com/@fakurian) on Unsplash for [wallpaper](https://unsplash.com/photos/a-black-and-white-photo-with-a-black-background-ek7Y_iOl3UQ)
 
-[adi1090x](https://github.com/adi1090x/rofi) on GitHub for rofi menus (I edited them)
+[adi1090x](https://github.com/adi1090x/rofi) on GitHub for rofi menus
 ### Showcase:
 This includes dynamic tiling for i3, clipboard history, applications menu, compositor animations, screenshotting tool with cool effects, and much much more.
 
-> [!NOTE]
-> The videos are not up to date as of 9 April 2024.
 
-https://github.com/windowschips/i3dotfiles/assets/137562618/1859ef2a-8cf5-4ad2-9f2d-f94245699616
 
-https://github.com/windowschips/i3dotfiles/assets/137562618/8fbccf9d-4571-4880-b81f-dd8ec5c5ccaa
+https://github.com/windowschips/i3dotfiles/assets/137562618/c3c95a95-fc9d-4222-9197-a9fd4c329fff
 
-..and these videos are just a small part of the many features provided!
+
+
+..and this video is just a small part of the many features provided!
 ### Before you use:
 - Only tested on Fedora Workstation 39, using ASUS F555L Laptop. I have only one monitor. (internal display)
 - I am not responsible for any computer errors or damage, but feel free to make issue on the repository and I will try helping.
@@ -74,7 +73,7 @@ Make sure you have GNU Stow installed. After which you can follow these steps:
 ### FAQ
 I don't know how to use your i3 config.
 
-^ Press Win+Space and open your favorite text editor. Use it to view the i3 config file and see the keybindings. If you want, you can change the keybinds also and reset i3 with Win+R. Show off to your friends using the screenshot tool by pressing Win+Shift+S. The screenshot will be copied to clipboard.
+^ Press Win+Space and open your favorite text editor. Use it to view the i3 config file and see the keybindings. If you want, you can change the keybinds also and reset the desktop (picom, i3, dunst, etc) with Win+R. Show off to your friends using the screenshot tool by pressing Win+Shift+S. The screenshot will be copied to clipboard.
 
 I changed the names, locations, etc of the directories, now my configs is broken.
 
