@@ -4,72 +4,72 @@ font pango:Ubuntu Nerd Font 11
 
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id ~/.config/polybar/start.sh
-exec_always --no-startup-id killall picom; sleep 1; picom
-exec_always --no-startup-id killall dunst; sleep 1; dunst
-exec --no-startup-id unclutter
-exec --no-startup-id xss-lock --transfer-sleep-lock -- ~/.dotfiles/apps.sh screenlock
-exec --no-startup-id nitrogen --restore
-exec --no-startup-id xmousepasteblock
+exec_always --no-startup-id killall picom; sleep 0.3; picom
+exec_always --no-startup-id killall dunst; sleep 0.3; dunst
+exec_always --no-startup-id nitrogen --restore
 exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit
 exec --no-startup-id clipse -listen
+exec --no-startup-id unclutter
+exec --no-startup-id xmousepasteblock
+exec --no-startup-id xss-lock --transfer-sleep-lock -- ~/.dotfiles/apps.sh screenlock
 
-set $warpmouse exec --no-startup-id eval $(xdotool getwindowfocus getwindowgeometry --shell) && xdotool mousemove --window $(xdotool getwindowfocus) $((WIDTH/2)) $((HEIGHT/2))
+set $warpmouse       exec --no-startup-id eval $(xdotool getwindowfocus getwindowgeometry --shell) && xdotool mousemove --window $(xdotool getwindowfocus) $((WIDTH/2)) $((HEIGHT/2))
 set $focusundermouse exec --no-startup-id xdotool windowactivate $(xdotool getmouselocation --shell | grep WINDOW | cut -d'=' -f2)
 
-bindsym $mod+Left focus left, $warpmouse
-bindsym $mod+Down focus down, $warpmouse
-bindsym $mod+Up focus up, $warpmouse
+bindsym $mod+Left  focus left,  $warpmouse
+bindsym $mod+Down  focus down,  $warpmouse
+bindsym $mod+Up    focus up,    $warpmouse
 bindsym $mod+Right focus right, $warpmouse
 
-bindsym $mod+Ctrl+Left move left
-bindsym $mod+Ctrl+Down move down
-bindsym $mod+Ctrl+Up move up
-bindsym $mod+Ctrl+Right move right
+bindsym $mod+Ctrl+Left  move left,  $warpmouse
+bindsym $mod+Ctrl+Down  move down,  $warpmouse
+bindsym $mod+Ctrl+Up    move up,    $warpmouse
+bindsym $mod+Ctrl+Right move right, $warpmouse
 
-bindsym $mod+Shift+Up resize shrink height 10 px
-bindsym $mod+Shift+Down resize grow height 10 px
-bindsym $mod+Shift+Right resize grow width 10 px
-bindsym $mod+Shift+Left resize shrink width 10 px
+bindsym $mod+Shift+Up    resize shrink height 10 px
+bindsym $mod+Shift+Down  resize grow   height 10 px
+bindsym $mod+Shift+Left  resize shrink width 10 px
+bindsym $mod+Shift+Right resize grow   width 10 px
 
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
+set $ws1  "1"
+set $ws2  "2"
+set $ws3  "3"
+set $ws4  "4"
+set $ws5  "5"
+set $ws6  "6"
+set $ws7  "7"
+set $ws8  "8"
+set $ws9  "9"
 set $ws10 "10"
-bindsym $mod+1 workspace number $ws1, $focusundermouse
-bindsym $mod+2 workspace number $ws2, $focusundermouse
-bindsym $mod+3 workspace number $ws3, $focusundermouse
-bindsym $mod+4 workspace number $ws4, $focusundermouse
-bindsym $mod+5 workspace number $ws5, $focusundermouse
-bindsym $mod+6 workspace number $ws6, $focusundermouse
-bindsym $mod+7 workspace number $ws7, $focusundermouse
-bindsym $mod+8 workspace number $ws8, $focusundermouse
-bindsym $mod+9 workspace number $ws9, $focusundermouse
+bindsym $mod+1 workspace number $ws1,  $focusundermouse
+bindsym $mod+2 workspace number $ws2,  $focusundermouse
+bindsym $mod+3 workspace number $ws3,  $focusundermouse
+bindsym $mod+4 workspace number $ws4,  $focusundermouse
+bindsym $mod+5 workspace number $ws5,  $focusundermouse
+bindsym $mod+6 workspace number $ws6,  $focusundermouse
+bindsym $mod+7 workspace number $ws7,  $focusundermouse
+bindsym $mod+8 workspace number $ws8,  $focusundermouse
+bindsym $mod+9 workspace number $ws9,  $focusundermouse
 bindsym $mod+0 workspace number $ws10, $focusundermouse
-bindsym $mod+Shift+1 move container to workspace number $ws1, workspace $ws1, $focusundermouse
-bindsym $mod+Shift+2 move container to workspace number $ws2, workspace $ws2, $focusundermouse
-bindsym $mod+Shift+3 move container to workspace number $ws3, workspace $ws3, $focusundermouse
-bindsym $mod+Shift+4 move container to workspace number $ws4, workspace $ws4, $focusundermouse
-bindsym $mod+Shift+5 move container to workspace number $ws5, workspace $ws5, $focusundermouse
-bindsym $mod+Shift+6 move container to workspace number $ws6, workspace $ws6, $focusundermouse
-bindsym $mod+Shift+7 move container to workspace number $ws7, workspace $ws7, $focusundermouse
-bindsym $mod+Shift+8 move container to workspace number $ws8, workspace $ws8, $focusundermouse
-bindsym $mod+Shift+9 move container to workspace number $ws9, workspace $ws9, $focusundermouse
+bindsym $mod+Shift+1 move container to workspace number $ws1,  workspace $ws1,  $focusundermouse
+bindsym $mod+Shift+2 move container to workspace number $ws2,  workspace $ws2,  $focusundermouse
+bindsym $mod+Shift+3 move container to workspace number $ws3,  workspace $ws3,  $focusundermouse
+bindsym $mod+Shift+4 move container to workspace number $ws4,  workspace $ws4,  $focusundermouse
+bindsym $mod+Shift+5 move container to workspace number $ws5,  workspace $ws5,  $focusundermouse
+bindsym $mod+Shift+6 move container to workspace number $ws6,  workspace $ws6,  $focusundermouse
+bindsym $mod+Shift+7 move container to workspace number $ws7,  workspace $ws7,  $focusundermouse
+bindsym $mod+Shift+8 move container to workspace number $ws8,  workspace $ws8,  $focusundermouse
+bindsym $mod+Shift+9 move container to workspace number $ws9,  workspace $ws9,  $focusundermouse
 bindsym $mod+Shift+0 move container to workspace number $ws10, workspace $ws10, $focusundermouse
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10%
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10%
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
+bindsym XF86AudioMute        exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioMicMute     exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
-bindsym $mod+comma workspace prev
-bindsym $mod+period workspace next
-bindsym $mod+Shift+comma move container to workspace prev, workspace prev
+bindsym $mod+comma        workspace prev
+bindsym $mod+period       workspace next
+bindsym $mod+Shift+comma  move container to workspace prev, workspace prev
 bindsym $mod+Shift+period move container to workspace next, workspace next
 
 bindsym $mod+c kill
@@ -80,25 +80,23 @@ bindsym $mod+f floating toggle
 bindsym $mod+Shift+r reload
 bindsym $mod+Shift+f floating enable; move absolute position center
 
-bindsym $mod+space exec bash ~/.dotfiles/layout/.config/rofi/appmenu.sh
+bindsym $mod+space       exec bash ~/.dotfiles/layout/.config/rofi/appmenu.sh
+bindsym $mod+m           exec bash ~/.dotfiles/layout/.config/rofi/powermenu.sh
+bindsym $mod+q           exec kitty
+bindsym $mod+v           exec kitty -e "$SHELL" -c "i3-msg 'floating enable' && clipse $PPID" # clipboard
+bindsym $mod+Shift+v     exec clipse -clear && notify-send "Clipse" "Cleared clipboard successfully."
+bindsym $mod+Shift+s     exec --no-startup-id bash ~/.dotfiles/apps.sh screenshot
 bindsym --release $mod+L exec --no-startup-id ~/.dotfiles/apps.sh screenlock
-bindsym $mod+q exec kitty
-bindsym $mod+m exec bash ~/.dotfiles/layout/.config/rofi/powermenu.sh
-bindsym $mod+v exec kitty -e "$SHELL" -c "i3-msg 'floating enable' && clipse $PPID" # clipboard
-bindsym $mod+Shift+v exec clipse -clear && notify-send "Clipse" "Cleared clipboard successfully."
-bindsym $mod+Shift+s exec --no-startup-id bash ~/.dotfiles/apps.sh screenshot
 
 bindsym --whole-window $mod+button4 workspace next_on_output
 bindsym --whole-window $mod+button5 workspace prev_on_output
 
-default_border pixel 2
 default_floating_border pixel 2
+default_border          pixel 2
 floating_modifier $mod
 focus_follows_mouse yes
-focus_on_window_activation urgent
-
+focus_on_window_activation none
 no_focus [class=".*"]
-focus_on_window_activation none 
 for_window [class=".*"] $focusundermouse
 
 gaps outer 0
@@ -112,5 +110,5 @@ client.unfocused        #222222 #222222 #888888 #222222   #222222
 client.urgent           #ff7300 #ff7300 #EEEEEE #ff7300   #ff7300
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
-# class			        color
+# class                 color
 client.background       #181818
