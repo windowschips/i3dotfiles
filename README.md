@@ -4,7 +4,7 @@
 
 [adi1090x](https://github.com/adi1090x/rofi) on GitHub for rofi menus
 ### Showcase:
-This includes dynamic tiling for i3, clipboard history, applications menu, compositor animations, screenshotting tool with cool effects, and much much more.
+This includes dynamic tiling for i3, clipboard history, applications menu, compositor animations, screenshotting tool with cool effects, and much more.
 
 
 
@@ -14,38 +14,41 @@ https://github.com/windowschips/i3dotfiles/assets/137562618/c3c95a95-fc9d-4222-9
 
 ..and this video is just a small part of the many features provided!
 ### Before you use:
-- Only tested on Fedora Workstation 39, using ASUS F555L Laptop. I have only one monitor. (internal display)
-- I am not responsible for any computer errors or damage, but feel free to make issue on the repository and I will try helping.
+- Tested on ASUS F555L Laptop with:
+  - Fedora Workstation 39
+  - Fedora Everything 39 (with Fedora i3 software)
+- Made for use with a 1920x1080 monitor.
 - Make sure to read all sections of this file so no confusion occurs.
 - These dotfiles are not meant to be used as is, and you may have to make some changes if you have a different setup from mine.
 - Upon installing, you may have to set the wallpaper from nitrogen manually.
 
 ### Programs:
-Most of the necessary programs are listed in the dropdown below. If you don't want to use a specific program, you can try editing the configs and substituting the program. If I missed any program, make issue on repository and I will add it to the section.
+Most of the necessary programs are listed in the dropdown below. If you don't want to use a specific program, you can try editing the configs and substituting the program. If I missed any program, [make issue](https://github.com/windowschips/i3dotfiles/issues) on the repository and I will add it to the section.
 
 <details><summary>You may need these packages/programs...</summary>
 
 Necessary:
-- i3
-- kitty
+- [i3](https://i3wm.org/)
+- [kitty](https://github.com/kovidgoyal/kitty)
 - polybar
 - xfce-polkit (some apps break without this)
-- dunst (notifications)
+- [dunst](https://github.com/dunst-project/dunst) (notifications)
 - rofi (powermenu and app launcher)
 - xss-lock (laptop shenanigans)
 - systemd (systemctl needed) (also why the hate???)
 - pulseaudio-utils (pactl needed)
 - NetworkManager
+- maim (screenshot)
 
 Eyecandy / QoL:
 - [autotiling](https://github.com/nwg-piotr/autotiling) (makes i3 behave like a dynamic tiling wm)
-- picom (!!! use jonaburg fork !!!)
+- [picom (jonaburg fork)](https://github.com/jonaburg/picom)
 - [unclutter-xfixes](https://github.com/Airblader/unclutter-xfixes) (autohide mouse cursor)
 - [nitrogen](https://github.com/l3ib/nitrogen/) (wallpaper)
-- maim (screenshot)
 - xclip (screenshot copy)
 
 Substitutable:
+- [Ubuntu Nerd Font](https://www.nerdfonts.com/font-downloads) (substitute for other nerd fonts if needed)
 - [clipse](https://github.com/savedra1/clipse) (clipboard history)
 - [shadower](https://github.com/n3oney/shadower) (fancy screenshot effects)
 - xlock (xlockmore package)
@@ -62,6 +65,7 @@ For polybar autohide:
 
 Optionally you can install:
 - neofetch
+- papirus-icon-theme
 </details>
 
 ### Install the configs:
