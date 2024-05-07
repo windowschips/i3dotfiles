@@ -78,3 +78,5 @@ I don't know how to use your i3 config.
 I changed the names, locations, etc of the directories, now my configs is broken.
 
 ^ No worries, run `./stow.sh` again and all should be fixed.
+
+test change
