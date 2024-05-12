@@ -16,6 +16,8 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- ~/.dotfiles/apps.sh scree
 set $warpmouse       exec --no-startup-id eval $(xdotool getwindowfocus getwindowgeometry --shell) && xdotool mousemove --window $(xdotool getwindowfocus) $((WIDTH/2)) $((HEIGHT/2))
 set $focusundermouse exec --no-startup-id xdotool windowactivate $(xdotool getmouselocation --shell | grep WINDOW | cut -d'=' -f2)
 
+bindsym --release $mod+E exec --no-startup-id xdotool key Escape
+
 bindsym $mod+Left  focus left,  $warpmouse
 bindsym $mod+Down  focus down,  $warpmouse
 bindsym $mod+Up    focus up,    $warpmouse
