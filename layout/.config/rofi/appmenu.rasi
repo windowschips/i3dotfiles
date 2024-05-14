@@ -51,9 +51,9 @@ window {
     transparency:                "real";
     location:                    center;
     anchor:                      center;
-    fullscreen:                  true;
-    width:                       60%;
-    height:                      70%;
+    fullscreen:                  false;
+    width:                       50%;
+    height:                      50.18%;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -82,7 +82,7 @@ window {
 mainbox {
     enabled:                     true;
     spacing:                     2px;
-    margin:                      20%;
+    margin:                      0%;
     padding:                     2px;
     border:                      2px solid;
     border-radius:               0px 0px 0px 0px;
