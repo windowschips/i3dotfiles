@@ -83,6 +83,7 @@ bindsym $mod+Shift+f floating enable; move absolute position center
 
 bindsym $mod+space       exec bash ~/.dotfiles/layout/.config/rofi/appmenu.sh
 bindsym $mod+m           exec bash ~/.dotfiles/layout/.config/rofi/powermenu.sh
+bindsym $mod+Shift+space exec bash ~/.dotfiles/layout/.config/rofi/calculator.sh
 bindsym $mod+q           exec kitty
 bindsym $mod+v           exec kitty -e "$SHELL" -c "i3-msg 'floating enable' && clipse $PPID" # clipboard
 bindsym $mod+Shift+v     exec clipse -clear && notify-send "Clipse" "Cleared clipboard successfully."
