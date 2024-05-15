@@ -31,7 +31,7 @@ Necessary:
 - [i3](https://i3wm.org/)
 - [kitty](https://github.com/kovidgoyal/kitty)
 - polybar
-- xfce-polkit (some apps break without this)
+- mate-polkit
 - [dunst](https://github.com/dunst-project/dunst) (notifications)
 - rofi (powermenu and app launcher)
 - xss-lock (laptop shenanigans)
