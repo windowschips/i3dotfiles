@@ -46,6 +46,7 @@ Eyecandy / QoL:
 - [unclutter-xfixes](https://github.com/Airblader/unclutter-xfixes) (autohide mouse cursor)
 - [nitrogen](https://github.com/l3ib/nitrogen/) (wallpaper)
 - xclip (screenshot copy)
+- cava (for polybar)
 
 Substitutable:
 - [Ubuntu Nerd Font](https://www.nerdfonts.com/font-downloads) (substitute for other nerd fonts if needed)
