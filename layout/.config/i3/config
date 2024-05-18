@@ -13,6 +13,8 @@ exec --no-startup-id unclutter
 exec --no-startup-id xmousepasteblock
 exec --no-startup-id xss-lock --transfer-sleep-lock -- ~/.dotfiles/apps.sh screenlock
 exec --no-startup-id "xmodmap -e 'keycode 115 = Escape'"
+exec --no-startup-id xinput --set-prop 13 338 1
+exec --no-startup-id xinput --set-prop 13 309 1
 
 set $warpmouse       exec --no-startup-id eval $(xdotool getwindowfocus getwindowgeometry --shell) && xdotool mousemove --window $(xdotool getwindowfocus) $((WIDTH/2)) $((HEIGHT/2))
 set $focusundermouse exec --no-startup-id xdotool windowactivate $(xdotool getmouselocation --shell | grep WINDOW | cut -d'=' -f2)
