@@ -1,18 +1,16 @@
 ## Welcome to the GitHub page of my i3 dotfiles.
 ### Credit:
-[Milad Fakurian](https://unsplash.com/@fakurian) on Unsplash for [wallpaper](https://unsplash.com/photos/a-black-and-white-photo-with-a-black-background-ek7Y_iOl3UQ)
+[Milad Fakurian](https://unsplash.com/@fakurian) on [Unsplash](https://unsplash.com) for all wallpapers included
 
 [adi1090x](https://github.com/adi1090x/rofi) on GitHub for rofi menus
 ### Showcase:
 This includes dynamic tiling for i3, clipboard history, applications menu, compositor animations, screenshotting tool with cool effects, and much more.
 
-
+> [!NOTE]  
+> This video is extremely outdated! Please wait while I upload a new showcase.
 
 https://github.com/windowschips/i3dotfiles/assets/137562618/c3c95a95-fc9d-4222-9197-a9fd4c329fff
 
-
-
-..and this video is just a small part of the many features provided!
 ### Before you use:
 - Tested on ASUS F555L Laptop with:
   - Fedora Workstation 39
@@ -35,7 +33,7 @@ Necessary:
 - [dunst](https://github.com/dunst-project/dunst) (notifications)
 - rofi (powermenu and app launcher)
 - xss-lock (laptop shenanigans)
-- systemd (systemctl needed) (also why the hate???)
+- systemd (systemctl needed)
 - pulseaudio-utils (pactl needed)
 - NetworkManager
 - maim (screenshot)
