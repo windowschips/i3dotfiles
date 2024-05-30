@@ -53,7 +53,7 @@ window {
     anchor:                      center;
     fullscreen:                  false;
     width:                       50%;
-    height:                      50.18%;
+    height:                      45.83%;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -85,7 +85,7 @@ mainbox {
     margin:                      0%;
     padding:                     2px;
     border:                      2px solid;
-    border-radius:               0px 0px 0px 0px;
+    border-radius:               8px;
     border-color:                @alternate-background;
     background-color:            @background-colour;
     children:                    [ "inputbar", "message", "listview" ];
@@ -97,8 +97,8 @@ inputbar {
     spacing:                     2px;
     margin:                      0px;
     padding:                     2px;
-    border:                      3 px solid;
-    border-radius:               0px;
+    border:                      3px solid;
+    border-radius:               4px;
     border-color:                @alternate-background;
     background-color:            @alternate-background;
     text-color:                  @foreground-colour;
@@ -153,7 +153,7 @@ case-indicator {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     3;
+    columns:                     4;
     lines:                       10;
     cycle:                       true;
     dynamic:                     true;
@@ -185,9 +185,9 @@ element {
     enabled:                     true;
     spacing:                     2px;
     margin:                      0px;
-    padding:                     2px;
+    padding:                     4px;
     border:                      0px solid;
-    border-radius:               0px;
+    border-radius:               6px;
     border-color:                @border-colour;
     background-color:            transparent;
     text-color:                  @foreground-colour;
