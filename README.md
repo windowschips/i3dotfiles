@@ -1,4 +1,4 @@
-## Welcome to the GitHub page of my i3 dotfiles.
+## ModernDark - Dotfiles to create an almost full-fledged desktop based on i3 window manager.
 ### Credit:
 [Milad Fakurian](https://unsplash.com/@fakurian) on [Unsplash](https://unsplash.com) for all wallpapers included
 
@@ -15,7 +15,7 @@ https://github.com/windowschips/i3dotfiles/assets/137562618/c3c95a95-fc9d-4222-9
 - Tested on ASUS F555L Laptop with:
   - Fedora Workstation 39
   - Fedora Everything 39 (with Fedora i3 software)
-- Made for use with a 1920x1080 monitor.
+- Made for use with **one 1920x1080** monitor. Adjustments to the configs will be neccessary for higher/lower resolutions and/or more monitors.
 - Make sure to read all sections of this file so no confusion occurs.
 - These dotfiles are not meant to be used as is, and you may have to make some changes if you have a different setup from mine.
 - Upon installing, you may have to set the wallpaper from nitrogen manually.
@@ -73,7 +73,7 @@ Make sure you have GNU Stow installed. After which you can follow these steps:
 - Clone repository into **your home folder**, and rename it to `.dotfiles`.
 - `cd` into the `.dotfiles` folder.
 - Run `./stow.sh`. This will symlink the files (GTK configs, rofi menus, i3 config, etc.) to their locations.
-- If it says `Stowing complete.` in your terminal, it is successful.
+- Login into i3! 
 ### FAQ
 I don't know how to use your i3 config.
 
