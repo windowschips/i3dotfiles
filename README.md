@@ -66,6 +66,8 @@ For polybar autohide:
 Optionally you can install:
 - neofetch
 - papirus-icon-theme
+- bibata cursors
+- adw-gtk3-dark
 </details>
 
 ### Install the configs:
