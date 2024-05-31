@@ -5,7 +5,7 @@ function main {
     	wifi-menu) kitty nmtui;;
     	bluetooth-menu) kitty bluetui;;
     	screenlock) xlock -font -*-helvetica-*-*-normal-*-25-*-*-*-*-*-*-* -mode space +description +showdate;;
-    	screenshot) maim -s --highlight --color=.3,.3,.3,0.9 | ~/.cargo/bin/shadower -r 8 --padding-x 20 --padding-y 20 | xclip -selection clipboard -t image/png;;
+    	screenshot) ~/.dotfiles/screenshot.sh;;
         calendar) gnome-calendar;;
         hardware-monitor) kitty btop -p 0;;
         
