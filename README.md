@@ -40,7 +40,7 @@ Necessary:
 
 Eyecandy / QoL:
 - [autotiling](https://github.com/nwg-piotr/autotiling) (makes i3 behave like a dynamic tiling wm)
-- [picom (jonaburg fork)](https://github.com/jonaburg/picom)
+- picom
 - [unclutter-xfixes](https://github.com/Airblader/unclutter-xfixes) (autohide mouse cursor)
 - [nitrogen](https://github.com/l3ib/nitrogen/) (wallpaper)
 - xclip (screenshot copy)
