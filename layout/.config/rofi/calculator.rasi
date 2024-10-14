@@ -85,7 +85,7 @@ mainbox {
     margin:                      0%;
     padding:                     2px;
     border:                      2px solid;
-    border-radius:               8px;
+    border-radius:               0px;
     border-color:                @alternate-background;
     background-color:            @background-colour;
     children:                    [ "inputbar", "message", "listview" ];
@@ -98,7 +98,7 @@ inputbar {
     margin:                      0px;
     padding:                     2px;
     border:                      3 px solid;
-    border-radius:               4px 4px 0px 0px;
+    border-radius:               0px 0px 0px 0px;
     border-color:                @alternate-background;
     background-color:            @alternate-background;
     text-color:                  @foreground-colour;
@@ -187,7 +187,7 @@ element {
     margin:                      0px;
     padding:                     6px;
     border:                      0px solid;
-    border-radius:               5px;
+    border-radius:               0px;
     border-color:                @border-colour;
     background-color:            transparent;
     text-color:                  @foreground-colour;
@@ -266,7 +266,7 @@ message {
     margin:                      0px;
     padding:                     0px;
     border:                      0px solid;
-    border-radius:               0px 0px 4px 4px;
+    border-radius:               0px 0px 0px 0px;
     border-color:                @border-colour;
     background-color:            transparent;
     text-color:                  @foreground-colour;

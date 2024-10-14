@@ -95,8 +95,8 @@ bindsym --release $mod+L exec --no-startup-id ~/.dotfiles/apps.sh screenlock
 bindsym --whole-window $mod+button4 workspace next_on_output
 bindsym --whole-window $mod+button5 workspace prev_on_output
 
-default_floating_border pixel 0
-default_border          pixel 0
+default_floating_border pixel 2
+default_border          pixel 2
 floating_modifier $mod
 focus_follows_mouse yes
 focus_on_window_activation none
