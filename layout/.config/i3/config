@@ -89,7 +89,8 @@ bindsym $mod+Shift+space exec bash ~/.dotfiles/layout/.config/rofi/calculator.sh
 bindsym $mod+q           exec kitty
 bindsym $mod+v           exec kitty -e "$SHELL" -c "i3-msg 'floating enable' && clipse $PPID" # clipboard
 bindsym $mod+Shift+v     exec clipse -clear && notify-send "Clipse" "Cleared clipboard successfully."
-bindsym $mod+Shift+s     exec --no-startup-id bash ~/.dotfiles/apps.sh screenshot
+bindsym $mod+Shift+s     exec --no-startup-id bash ~/.dotfiles/apps.sh ssselection
+bindsym $mod+Ctrl+s      exec --no-startup-id bash ~/.dotfiles/apps.sh ssfull
 bindsym --release $mod+L exec --no-startup-id ~/.dotfiles/apps.sh screenlock
 
 bindsym --whole-window $mod+button4 workspace next_on_output
