@@ -56,7 +56,6 @@ Substitutable:
 - [bluetui](https://github.com/pythops/bluetui) (for bluetooth module of polybar)
 - [tomato.c](https://github.com/gabrielzschmitz/Tomato.C) (for pomodoro module of polybar)
 - brightnessctl (for brightness module of polybar)
-- xmodmap (currently using to bind `end` to `esc` on my laptop because the `esc` key is damaged)
 
 For polybar autohide:
 - xev
