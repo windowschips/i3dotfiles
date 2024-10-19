@@ -52,6 +52,7 @@ Substitutable:
 - [shadower](https://github.com/n3oney/shadower) (fancy screenshot effects)
 - xlock (xlockmore package)
 - pavucontrol (for pulseaudio module of polybar)
+- playerctl (for pulseaudio module of polybar)
 - [bluetui](https://github.com/pythops/bluetui) (for bluetooth module of polybar)
 - brightnessctl (for brightness module of polybar)
 
