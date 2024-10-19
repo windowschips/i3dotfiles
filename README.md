@@ -51,7 +51,6 @@ Substitutable:
 - [clipse](https://github.com/savedra1/clipse) (clipboard history)
 - [shadower](https://github.com/n3oney/shadower) (fancy screenshot effects)
 - xlock (xlockmore package)
-- gnome-calendar (for date module of polybar)
 - pavucontrol (for pulseaudio module of polybar)
 - [bluetui](https://github.com/pythops/bluetui) (for bluetooth module of polybar)
 - brightnessctl (for brightness module of polybar)
