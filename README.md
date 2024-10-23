@@ -30,7 +30,7 @@ Necessary:
 - [kitty](https://github.com/kovidgoyal/kitty)
 - polybar
 - mate-polkit
-- [dunst](https://github.com/dunst-project/dunst) (notifications)
+- [dunst](https://github.com/dunst-project/dunst)
 - rofi (powermenu and app launcher)
 - xss-lock (laptop shenanigans)
 - systemd (systemctl needed)
@@ -40,7 +40,7 @@ Necessary:
 
 Eyecandy / QoL:
 - [autotiling](https://github.com/nwg-piotr/autotiling) (makes i3 behave like a dynamic tiling wm)
-- picom
+- [picom jonaburg fork](https://github.com/jonaburg/picom)
 - [unclutter-xfixes](https://github.com/Airblader/unclutter-xfixes) (autohide mouse cursor)
 - [nitrogen](https://github.com/l3ib/nitrogen/) (wallpaper)
 - xclip (screenshot copy)
