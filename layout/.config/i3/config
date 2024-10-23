@@ -102,7 +102,7 @@ floating_modifier $mod
 focus_follows_mouse yes
 focus_on_window_activation none
 no_focus [class=".*"]
-# for_window [class=".*"] $focusundermouse
+for_window [class=".*"] $focusundermouse
 
 gaps outer 0
 gaps inner 2
