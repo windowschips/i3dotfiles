@@ -1,6 +1,6 @@
 #! /bin/bash
 
-bar="▁▂▃▄▅▆▇█"
+bar="▁▂▃▄▅▆▇"
 dict="s/;//g;"
 
 # creating "dictionary" to replace char with bar
@@ -15,13 +15,13 @@ done
 config_file="/tmp/polybar_cava_config"
 echo "
 [general]
-bars = 20
+bars = 12
 
 [output]
 method = raw
 raw_target = /dev/stdout
 data_format = ascii
-ascii_max_range = 7
+ascii_max_range = 6
 " > $config_file
 
 # read stdout from cava
