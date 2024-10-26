@@ -52,8 +52,8 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       20%;
-    height:                      41.01%;
+    width:                       100%;
+    height:                      100%;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -66,7 +66,7 @@ window {
     border-color:                @border-colour;
     cursor:                      "default";
     /* Backgroud Colors */
-    background-color:            transparent;
+    background-color:            #00000088;
     /* Backgroud Image */
     //background-image:          url("/path/to/image.png", none);
     /* Simple Linear Gradient */
@@ -82,7 +82,7 @@ window {
 mainbox {
     enabled:                     true;
     spacing:                     2px;
-    margin:                      0%;
+    margin:                      41.1%;
     padding:                     2px;
     border:                      2px solid;
     border-radius:               0px;
