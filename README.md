@@ -39,6 +39,7 @@ Most of the necessary programs are listed in the dropdown below. If you don't wa
 - xss-lock (sleep lock)
 ---
 - [unclutter-xfixes](https://github.com/Airblader/unclutter-xfixes) (autohide mouse cursor)
+- [xmousepasteblock](https://github.com/milaq/XMousePasteBlock) (if needed)
 ---
 - pulseaudio-utils (pactl needed) & pavucontrol
 - playerctl (polybar)
