@@ -45,7 +45,7 @@ Most of the necessary programs are listed in the dropdown below. If you don't wa
 - cava (for polybar)
 ---
 - NetworkManager & nmtui
-- blueman & bluetoothctl
+- blueman-applet & bluetoothctl & [bluetui](https://github.com/pythops/bluetui)
 ---
 - maim
 - [shadower](https://github.com/n3oney/shadower) (fancy screenshot effects)
