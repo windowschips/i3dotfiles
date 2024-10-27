@@ -88,4 +88,4 @@ You should:
 ### Credits
 [Milad Fakurian](https://unsplash.com/@fakurian) on [Unsplash](https://unsplash.com) for all wallpapers included
 
-[adi1090x](https://github.com/adi1090x/rofi) on GitHub for Rofi menus
+[Aditya Shakya (adi1090x)](https://github.com/adi1090x/rofi) for Rofi menus
