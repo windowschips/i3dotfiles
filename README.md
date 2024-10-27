@@ -71,7 +71,7 @@ Follow these steps:
 - Clone repository into **your home folder**, and make sure its name is ".dotfiles". `git clone https://github.com/windowschips/i3dotfiles.git ~/.dotfiles`
 - Change directory into it. `cd ~/.dotfiles`
 - Run "stow.sh". This will symlink the important configs to their locations. `./stow.sh`
-- Login into i3! - `startx`
+- Login into i3! - `startx` or use your display manager
 ### Post-install
 
 Some basic keybinds are:
