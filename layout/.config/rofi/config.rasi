@@ -1,0 +1,9 @@
+
+configuration {
+
+  /* Highlight an entry under the mouse pointer */
+  hover-select: true;
+
+ me-select-entry: "MousePrimary";
+me-accept-entry: "!MousePrimary";
+}
