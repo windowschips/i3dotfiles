@@ -29,7 +29,8 @@ Most of the necessary programs are listed in the dropdown below. If you don't wa
 - [picom jonaburg fork](https://github.com/jonaburg/picom)
 ---
 - polybar
-- rofi (powermenu and app launcher)
+- rofi
+- [rofi-calc](https://github.com/svenstaro/rofi-calc)
 - [dunst notification daemon](https://github.com/dunst-project/dunst)
 ---
 - mate-polkit (substitute for a different polkit if desired)
