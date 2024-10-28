@@ -76,9 +76,12 @@ Follow these steps:
 ### Post-install
 
 Some basic keybinds are:
-- Super + Space : Apps menu
-- Super + R     : Reload desktop
-- Super + Shift/Ctrl + S : Screenshot area/fullscreen
+- Super + Q         : Open kitty terminal
+- Super + Space     : Apps menu
+- Super + R         : Reload desktop
+- Super + Shift + S : Screenshot area
+- Super + Ctrl + S  : Screenshot fullscreen
+- Super + Alt + S   : Screenshot fullscreen (3 seconds delay)
 - The rest can be viewed in the i3 config (~/.dotfiles/layout/i3/config).
 
 You should:
