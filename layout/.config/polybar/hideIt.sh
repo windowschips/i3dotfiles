@@ -560,6 +560,10 @@ function serve_region() {
                 _hide=1
             fi
 
+            if [ -z $(i3-msg -t get_tree | jq -e 'recurse(.nodes[]) | select(.focused == true and .window_type == "normal") | 1') ]; then
+                _hide=1
+            fi
+
             # Only do something if necessary
             if [ $_IS_HIDDEN -ne $_hide ]; then
                 hide_window $_hide
