@@ -8,7 +8,7 @@
 # unless explicitly requested using the wintypes option.
 #
 # shadow = false
-shadow = false;
+shadow = true;
 
 # The blur radius for shadows, in pixels. (defaults to 12)
 # shadow-radius = 12
@@ -76,7 +76,7 @@ shadow-exclude = [
 # Fade windows in/out when opening/closing and when opacity changes,
 #  unless no-fading-openclose is used.
 # fading = false
-fading = false;
+fading = true;
 
 # Opacity change between steps while fading in. (0.01 - 1.0, defaults to 0.028)
 # fade-in-step = 0.028
@@ -131,12 +131,12 @@ focus-exclude = [ "class_g = 'Cairo-clock'" , "class_g = 'Rofi'", "class_g = 'Du
 
 opacity-rule = ["100:class_g = 'floorp'"];
 
-# transition-length = 50
-# transition-pow-x = 0.1
-# transition-pow-y = 0.1
-# transition-pow-w = 0.1
-# transition-pow-h = 0.1
-# size-transition = false
+transition-length = 50
+transition-pow-x = 0.1
+transition-pow-y = 0.1
+transition-pow-w = 0.1
+transition-pow-h = 0.1
+size-transition = false
 
 #################################
 #           Corners             #

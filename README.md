@@ -26,7 +26,7 @@ Most of the necessary programs are listed in the dropdown below. If you don't wa
 ---
 - [kitty](https://github.com/kovidgoyal/kitty)
 - neofetch
-- [picom jonaburg fork](https://github.com/jonaburg/picom)
+- [picom](https://github.com/yshui/picom)
 ---
 - polybar
 - rofi
