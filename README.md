@@ -2,10 +2,7 @@
 
 ### Showcase
 
-> [!NOTE]  
-> This video is extremely outdated! Please wait while I upload a new showcase.
-
-https://github.com/windowschips/i3dotfiles/assets/137562618/c3c95a95-fc9d-4222-9197-a9fd4c329fff
+https://github.com/user-attachments/assets/bbb840db-57ca-4a5b-8159-7abb87c6b80b
 
 ### Read before installing
 - Tested on an Asus F555L laptop with:
