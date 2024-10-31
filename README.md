@@ -45,7 +45,7 @@ Most of the necessary programs are listed in the dropdown below. If you don't wa
 - playerctl (polybar)
 - cava (for polybar)
 ---
-- NetworkManager & nmtui
+- NetworkManager & nmtui & nm-applet
 - blueman-applet & bluetoothctl & [bluetui](https://github.com/pythops/bluetui)
 ---
 - maim
